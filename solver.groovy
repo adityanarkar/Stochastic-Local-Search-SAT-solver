@@ -110,7 +110,6 @@ def checkIfClauseSAT(clause) {
 }
 
 def litWithLeastBreakCount(clause) {
-    println(clause)
     def min = numberOfClauses
     def candidate_lit = 0
     clause.each {
